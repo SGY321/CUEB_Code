@@ -1,0 +1,17 @@
+增：
+String sql = "INSERT INTO examination (e_ID, e_Subject, e_Location, e_Time, e_TimeMinutes, e_Major) 
+VALUES ('"+bianhao+"', '"+subject+"', '"+location+"', '"+examDate+"', '"+examMins+"', '"+major+"')";
+
+删：
+String sql = "DELETE FROM examination WHERE e_ID = '"+bianhao+"'";
+
+改：
+String sql = "update examination set e_Subject='"+subject+"',e_Location='"+location+"',
+e_Time='"+examDate+"',e_TimeMinutes='"+examMins+"',e_Major='"+major+"' where e_ID='"+bianhao+"' ";
+
+
+查：
+select count(*) from examination where  e_ID = '"+bianhao+"'";
+
+
+csdn:  http://t.csdnimg.cn/r869s
